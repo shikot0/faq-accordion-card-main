@@ -90,6 +90,7 @@ main {
 .question p {  
     font-size: 1.1rem;
     margin: 0;
+    color: hsl(238, 29%, 16%);
 }
 .question img {
     height: 8px;
@@ -97,13 +98,14 @@ main {
 } 
 .answer {
     font-size: .9rem;
-    color: hsl(238, 29%, 16%);
+    color: hsl(240, 6%, 50%);
     height: 0;
     overflow: hidden;
     transition: .1s;
 }
 .visible{
     font-weight: 700; 
+    color: hsl(237, 12%, 33%);
     margin: 0 0 .6rem 0; 
 }
 .visible > img {
